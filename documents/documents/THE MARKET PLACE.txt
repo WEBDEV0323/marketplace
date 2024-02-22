@@ -1,0 +1,43 @@
+TMP cPanel:
+https://t-mp.co.uk/cpanel
+User: x6s7iygrqu6j
+Pass: nWzE$f0h1Cl@
+
+TMP LIVE FTP:
+t-mp.co.uk
+mailto:marketplace@t-mp.co.uk
+Discover78#
+
+TMP LIVE DB:
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=market_place
+DB_USERNAME=market_place
+DB_PASSWORD=‘Discover78#’
+TMP Stripe:
+User: mailto:support@t-mp.co.uk
+Password: Catinthehat12
+
+TMP Live Staging:
+Admin User Dashboard:
+https://staging.t-mp.co.uk/dashboard
+User: admin@t-mp.co.uk
+Password: admin2023!
+
+Testing TMP Website:
+https://discoveritech.com/market-place/public/
+
+Admin:
+https://discoveritech.com/market-place/public/dashboard/login
+admin@gmail.com
+admin2023!
+
+Seprate login for Admin.
+
+Two types of user 
+1 User 
+2 Vendor
+
+
+
+

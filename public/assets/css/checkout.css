@@ -1,0 +1,330 @@
+/* ------------------------------------------------------------------- */
+
+
+/* ------------------------- CUSTOM FONTS FAMILY --------------------- */
+
+
+/* ------------------------------------------------------------------- */
+
+@font-face {
+    src: url(poppins/Poppins-Light.ttf);
+    font-family: poppins-light;
+}
+
+@font-face {
+    src: url(poppins/Poppins-Regular.ttf);
+    font-family: poppins-regular;
+}
+
+@font-face {
+    src: url(poppins/Poppins-Medium.ttf);
+    font-family: poppins-medium;
+}
+
+@font-face {
+    src: url(poppins/Poppins-SemiBold.ttf);
+    font-family: poppins-semi-bold;
+}
+
+@font-face {
+    src: url(poppins/Poppins-Bold.ttf);
+    font-family: poppins-bold;
+}
+
+@font-face {
+    src: url(poppins/Poppins-Black.ttf);
+    font-family: poppins-black;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+
+/* --------------------------- CHECKOUT PAGE ------------------------- */
+
+
+/* ------------------------------------------------------------------- */
+
+.checkout-wrapper {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: poppins-regular;
+}
+
+.checkout-wrapper .column {
+    width: 100%;
+}
+
+.form-wrapper {
+    max-width: 63%;
+}
+
+.summary-details {
+    max-width: 33%;
+}
+
+.checkout-wrapper .sub-heading {
+    text-transform: uppercase;
+    font-family: poppins-medium;
+    color: #25252d;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.checkout-wrapper .main-heading {
+    text-transform: uppercase;
+    color: #25252d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.checkout-form .form-row,
+.checkout-form .form-group {
+    margin: 0;
+    padding: 0;
+}
+
+.checkout-form input {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    font-size: 14px;
+    color: #25252d;
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    background-color: transparent !important;
+}
+
+.checkout-form input::placeholder {
+    color: #8a8a8a;
+    font-size: 13px;
+}
+
+.checkout-form input:focus {
+    border-color: #00a9ec;
+    border-width: 2px;
+}
+
+.checkout-form label,
+.checkout-form small {
+    color: #25252d;
+    font-family: poppins-regular;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.checkout-form label span,
+.checkout-form small span {
+    color: #00a9ec;
+    font-weight: bold;
+}
+
+.checkout-form .password-wrapper {
+    background-color: #f8f8f8;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.checkout-form .password-wrapper i {
+    position: absolute;
+    right: 10px;
+    font-size: 10px;
+    top: 15px;
+    color: #8a8a8a;
+}
+
+.checkout-form h6 {
+    color: #8a8a8a;
+    margin-bottom: 40px;
+    font-family: poppins-semi-bold;
+    font-size: 14px;
+}
+
+.checkout-form .form-check {
+    padding-left: 0;
+}
+
+.checkout-form .form-check-input {
+    margin-left: 0px;
+}
+
+.checkout-form .form-check-label {
+    margin-left: 20px;
+}
+
+.checkout-form .different-address {
+    display: none;
+}
+
+.checkout-form input[type="checkbox"]:checked~.different-address {
+    display: block;
+}
+
+.checkout-wrapper .product-summary {
+    background-color: #fafafa;
+    padding: 10px !important;
+}
+
+.checkout-wrapper .summary-table tr {
+    padding: 0px !important;
+}
+
+.checkout-wrapper .summary-table th {
+    color: #000;
+    font-size: 14px;
+    font-family: poppins-bold;
+    text-transform: uppercase;
+    padding: 10px 15px !important;
+    border: none !important;
+}
+
+.checkout-wrapper .summary-table th:nth-child(2),
+.checkout-wrapper .summary-table td:nth-child(2) {
+    width: 150px;
+    text-align: right;
+}
+
+.checkout-wrapper .summary-table td {
+    color: #25252d;
+    font-size: 14px;
+    font-family: poppins-regular;
+    padding: 10px 15px !important;
+    vertical-align: middle;
+    border: none !important;
+}
+
+.checkout-wrapper .summary-table .product-row td {
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
+
+.checkout-wrapper .summary-table .product-row td span {
+    color: #8a8a8a;
+    font-size: 12px;
+}
+
+.checkout-wrapper .summary-table button {
+    border-radius: 0px;
+    color: #25252d;
+    font-size: 16px;
+    background-color: transparent !important;
+    text-transform: uppercase;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.checkout-wrapper .summary-table button i {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.checkout-wrapper .summary-table button:hover i {
+    color: #00a9ec;
+}
+
+.checkout-wrapper #promoCode {
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+.checkout-wrapper #promoCode p {
+    color: #8a8a8a;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.checkout-wrapper #promoCode .coupon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.checkout-wrapper #promoCode button {
+    white-space: normal !important;
+    max-width: 120px;
+    font-size: 12px;
+    background-color: #00a9ec !important;
+    color: #fff;
+    padding: 5px 15px;
+    line-height: 18px;
+    border-radius: 4px;
+    border: 0px !important;
+    font-family: poppins-semi-bold;
+}
+
+.checkout-wrapper #promoCode input {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    font-size: 14px;
+    color: #25252d;
+    border: none;
+    border-bottom: 2px solid #cacaca;
+    background-color: transparent !important;
+    max-width: 60%;
+    margin-right: 10px;
+}
+
+.checkout-wrapper #promoCode input:focus {
+    border-color: #00a9ec;
+}
+
+.checkout-wrapper .cash-on-delivery {
+    padding: 35px;
+}
+
+.checkout-wrapper .cash-on-delivery h6 {
+    color: #00a9ec;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: poppins-medium;
+}
+
+.checkout-wrapper .cash-on-delivery p {
+    color: #8a8a8a;
+    font-size: 13px;
+    margin: 0;
+    font-family: poppins-light;
+}
+
+.checkout-wrapper .cash-on-delivery p a {
+    color: #00a9ec !important;
+}
+
+.checkout-wrapper .cash-on-delivery label {
+    color: #25252d;
+    font-size: 12px;
+    margin: 0;
+    font-family: poppins-medium;
+}
+
+.checkout-wrapper .place-order {
+    background-color: #00a9ec;
+    height: 60px;
+    color: #fff;
+    font-family: poppins-semi-bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.checkout-wrapper .place-order:hover {
+    background-color: #25252d;
+}
+
+@media only screen and (max-width: 990px) {
+    .checkout-wrapper {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .form-wrapper,
+    .summary-details {
+        max-width: 100%;
+    }
+}

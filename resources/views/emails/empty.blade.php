@@ -1,0 +1,2 @@
+TEST EMPTY EMAIL
+{{rand(0, 10000)}}
